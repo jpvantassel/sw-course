@@ -1,0 +1,17 @@
+# Directories
+fk
+HV
+LearningAboutDispersion (DSM)
+LearningAboutDispersion (Geopsy)
+MASWProcessing
+UgurSolutions
+Wavelets
+
+# Wild Cards
+*.docx
+
+# Files
+DFT.pdf
+Inversion_Linear_Case.pdf
+SASW - Class Example.pdf
+
