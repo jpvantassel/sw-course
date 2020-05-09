@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="kres.svg"
+   sodipodi:docname="kres_1d.svg"
    inkscape:export-filename="D:\CurrentResearch\utprocess\code\scratch\kres.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
@@ -118,8 +118,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="128.10652"
-     inkscape:cy="189.66578"
+     inkscape:cx="64.067041"
+     inkscape:cy="161.02256"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -137,7 +137,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -148,16 +148,10 @@
      transform="translate(0,-220.79998)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 4.933832,292.00385 53.868385,-0.2674"
+       d="m 4.933832,292.00385 22.92515,-0.1337 m 8.285355,0 22.65788,-0.1337"
        id="path868"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.99999999, 1.99999997;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect889"
-       width="11.339286"
-       height="8.3154764"
-       x="26.722904"
-       y="288.11768" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
     <path
        sodipodi:type="star"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.41100001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.411, 2.822;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -383,13 +377,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="29.69574"
-       y="294.37732"
+       x="28.736433"
+       y="294.75629"
        id="text976-17"><tspan
          sodipodi:role="line"
          id="tspan974-0"
-         x="29.69574"
-         y="294.37732"
+         x="28.736433"
+         y="294.75629"
          style="stroke-width:0.26458332">x</tspan></text>
     <text
        xml:space="preserve"
@@ -410,35 +404,6 @@
        sodipodi:nodetypes="cc"
        clip-path="url(#clipPath1149)"
        transform="matrix(0.8033766,0,0,1,4.0646836,27.706438)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="12.019608"
-       y="310.64569"
-       id="text1176"><tspan
-         sodipodi:role="line"
-         id="tspan1174"
-         x="12.019608"
-         y="310.64569"
-         style="baseline-shift:baseline;stroke-width:0.26458332">λ<tspan
-   id="tspan1178"><tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1180">res</tspan> =2x </tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="12.442749"
-       y="326.80405"
-       id="text1176-2"><tspan
-         sodipodi:role="line"
-         id="tspan1174-7"
-         x="12.442749"
-         y="326.80405"
-         style="baseline-shift:baseline;stroke-width:0.26458332">k<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1211">res</tspan> =2π/λ<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan1220">res</tspan> = π/x</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 4.933832,289.358 v 5.26104"
