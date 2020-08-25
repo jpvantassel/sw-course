@@ -41,4 +41,4 @@ wavelength). In summary, when we process surface wave dispersion data we need to
 be aware of the limitations imposed by the recording array. In 1D this array
 resolution applies to all wavelengths less than λres or 2*x.
 
-<img src="figs/kres_1d.svg" alt="Missing kres_1d" with="4in">
+<img src="../../figs/kres_1d.svg" alt="Missing kres_1d" with="4in">
