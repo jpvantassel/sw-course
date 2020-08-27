@@ -9,8 +9,8 @@ This module summarizes the Phase-Shift Transform developed by Park et al.
 Transform is used to convert measurements in the offset-time (x-t) domain to the
 circular frequency-phase velocity domain (w, c). As Park et al. (1998) detail in
 their paper, the Phase-Shift Transform was developed to provide improved
-resolution over the frequency-wavenumber (f-k) (Gabriels et al. 1987) and the
-slowness-frequency (p-w) (McMechan and Yedlin, 1981) approaches, particularly
+resolution over the Slant-Stack (p-w) (McMechan and Yedlin, 1981) and the
+Frequency-Wavenumber (f-k) (Gabriels et al. 1987) approaches, particularly
 for relatively short arrays with a limited number of receivers. For a sense of
 scale, two arrays presented in Park et al. (1998) that are shown to perform
 better than the p-w transform include a 48 m array with 24 receivers and a
