@@ -54,7 +54,7 @@ modified to correspond to the anticipated site conditions.
 following the _t=τ+px_ line). Note that this will involve two nested `for`
 loops. The outer `for` loop iterates over the trial values of _p_ from step 1,
 and an inner `for` loop which iterates over the trial values of _τ_. Note that
-the trial values of _τ_ is defined using the experimental data's time step
+the trial values of _τ_ is defined using the time step of the experimental data
 and the minimum trial velocity (or maximum trial slowness). _Note when
 performing the slant-stack Louie (2001) recommends performing linear
 interpolation between time domain samples._ The result of this stage will be a
