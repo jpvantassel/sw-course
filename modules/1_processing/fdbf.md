@@ -11,18 +11,17 @@ frequency-domain beamforming in geophysics is typically attributed to Capon
 for analyzing data from two-dimensional surface arrays. The work to apply and
 improve frequency-domain beamforming for use with 1D arrays can be attributed
 to a number of researchers including Gabriels et al. (1967), Zywicki (1999),
-and Zywicki and Rix (2005). The basic concept of beamforming is rather quite
-simple a time-domain recording made on a number of receivers includes signal
-(e.g., a hammer impact during an MASW experiment) and noise (e.g., car driving
-nearby). The purpose of beamforming is to combine the time-domain recordings
-in such a way to maximize the signal and minimize the noise. For computational
-efficiency this process is performed in the frequency domain, hence the name
-frequency-domain beamforming. To maximize the signal and minimize the noise
-beamforming involves systematically guessing a trial velocity vector (i.e., the
-steering vector) at each frequency and calculating the inner product for each
-station's frequency-domain representation and summing the result. After
-beamforming a given array, the point(s) at each frequency with large relative
-power indicate the velocit(y/ies) of the signal.
+and Zywicki and Rix (2005). The basic concept of beamforming is rather
+simple. A time-domain recording made on a number of receivers can be understood
+to be composed of signal and noise. The purpose of beamforming is to combine the
+time-domain recordings in such a way as to maximize the signal and minimize the
+noise. For computational efficiency this process is performed in the frequency
+domain, hence the name frequency-domain beamforming. The process of beamforming
+involves: systematically guessing trial velocity vectors (i.e., steering
+vectors), calculating their inner product with the stations' frequency-domain
+representation, and summing the result. After beamforming a given array, the
+frequency-velocity pairs with the largest relative amplitude indicate the
+frequency-velocity pairs composing the signal.
 
 ## Mathematical Details
 
@@ -55,19 +54,24 @@ matrix at each frequency.
 There are two additional details worth discussing with respect to the use of
 the frequency-domain beamformer for performing MASW. The first is the
 application of sensor specific amplitude weighting. The weighting can be applied
-at any point in the process, however is typically applied immediately after
+at any point in the process, however it is typically applied immediately after
 frequency-domain transformation (before the dimensionality increases) or during
 the beamforming itself. In practice, users typical use either no weight (this
 produces the same results as the FK transform (Gabriels et al. 1967)), inverse
 amplitude weighting (this, as pointed out by Foti et al. (2015), produces the
 same results as the phase-shift transform (Park et al. 1998)), or square root of
 the receiver-source distance (this is the optimal weighting to compensate for
-the cylindrical spreading of surface waves (Zywicki 1999)). The second is the
-functional form of the beamforning trial vector. There are two options the
-assumption of a plane wave vector as used by all of the other transforms
-discussed (Gabriels et al. 1967; McMechan and Yedlin, 1981; Park et al., 1998)
+the cylindrical spreading of surface waves (Zywicki 1999)). The second
+implementation detail worth discussing is the
+functional form of the beamforming steering vector. Two options are used in
+practice. They include a plane wave steering vector as used by all of the transforms
+previously discussed (Gabriels et al. 1967; McMechan and Yedlin, 1981;
+Park et al., 1998)
 or the cylindrical wave vector which appropriately models the cylindrical spread
-of surface-waves (Zywicki 1999; Zywicki and Rix 2004).
+of surface-waves (Zywicki 1999; Zywicki and Rix 2004). As the cylindrical
+steering verctor appropriately models the cylindrical spreading of surface
+waves it should outperform its counterparts, particularly in the near-field
+(i.e., offsets close to the recording array).
 
 ## References
 
